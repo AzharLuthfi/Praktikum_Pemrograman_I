@@ -1,15 +1,13 @@
-package pertemuan3;
+package pertemuan4;
 
 public class StrukturListTest2 {
-	public static void main(String[] args) {
-
-        StrukturList myList = new StrukturList();
-
-        myList.addTail(3);
-        myList.addTail(2);
-        myList.addTail(1);
-        myList.addTail(7);
-        myList.displayElement();;
-	}
-
+ public static void main(String[] args) {
+	 StrukturList List = new StrukturList();
+		
+	 	List.addHead(2.1);
+		List.addTail(4.5);
+		List.addMid(3.4, 2);
+		
+		List.displayElement();
+}
 }
