@@ -1,31 +1,41 @@
-package pertmuan1;
+package pertemuan3;
 
 public class Node {
-//	Latihan ini akan memberikan implementasi pembuatan elemen list bertipe bilangan bulat (integer). 
-//	Elemen list direpresentasikan dengan Node. Sebuah node terdiri dari atribut
-//	nilai dan atribut next. Atribut next akan menunjuk ke node yang lain.
-	private int nilai;
+
+
+	private int data;
 	private Node next;
+
+	/* inisialisasi atribut node */
 	
-	
-	public Node (int nilai) {
-		this.nilai=nilai;
-		
+	public Node (int data) {
+		this.data = data;
 	}
-	//setter dan getter nilai
-	public void setNilai(int nilai) { 
-		this.nilai = nilai;
-		}
 	
-	public int getNilai() {
-		return nilai; 
-		}
+	/* setter & getter */
 	
-	//setter dan getter Node
+	/* getter Data */
+
+	public int getData() {
+		return data;
+	}
+	
+	/* setter data */
+	
+	public void setData(int data) {
+		this.data = data;
+	}
+	
+	/* getter next */
+	
+	public Node getNext() {
+		return next;
+	}
+	
+	/* setter next */
+	
 	public void setNext(Node next) {
-        this.next = next;
-    }
-    public Node getNext() {
-        return next;
-    }
+		this.next = next;
+	}
+
 }
